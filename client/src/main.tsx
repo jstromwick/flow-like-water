@@ -7,7 +7,9 @@ function App() {
     <main>
       <p>Streaming Audio Playground</p>
       <h1>Ready for the first stream.</h1>
-      <p>The React client is connected to the project shell. Audio controls arrive in the next step.</p>
+      <p>
+        The React client is connected to the project shell. Audio controls arrive in the next step.
+      </p>
     </main>
   );
 }

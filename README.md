@@ -11,7 +11,7 @@ A small TypeScript Express + React playground for experimenting with streaming a
 
 ## Requirements
 
-- Node.js 20 or newer
+- Node.js 24 (see `.nvmrc`)
 - npm 10 or newer
 
 ## Development
@@ -27,9 +27,12 @@ The client runs at `http://localhost:5173` and the server runs at `http://localh
 
 The initial server shell exposes `GET /health`. Audio streaming is intentionally not implemented yet.
 
+Copy `server/.env.example` to `server/.env` to override local server settings such as `PORT`.
+
 ## Checks
 
 ```sh
 npm run typecheck
 npm run build
+npm run format:check
 ```
